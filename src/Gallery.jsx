@@ -20,7 +20,7 @@ const Gallery = () => {
   }
   if (isError) {
     return <section className="image-container">
-    <h4>There was an error...</h4>
+    <h4>There was an error..</h4>
   </section>
   }
   const results = data.results 
